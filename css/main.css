@@ -151,3 +151,13 @@ body {
     will-change: transform;
     text-shadow: 15px 15px 15px #586969;
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--yellow);
+	border-radius: 6px;
+	animation: 5s linear 2s infinite alternate;
+}
